@@ -15,7 +15,7 @@ spec:
   source:
     repoURL: https://github.com/Looty/argocd-example-apps
     targetRevision: HEAD
-    path: ./app-of-apps/manifests
+    path: helm-guestbookv2
    
   # Destination cluster and namespace to deploy the application
   destination:
